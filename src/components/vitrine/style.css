@@ -1,0 +1,74 @@
+.container-ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  align-content: space-around;
+  gap: 10px;
+  margin-top: 21px;
+  margin-left: 6px;
+  width: 970px;
+}
+
+.vitrine {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.img-vitrine {
+  width: 200px;
+  height: 200px;
+  box-shadow: 4px 4px 4px #f9f9f9cc;
+  margin-bottom: 10px;
+}
+
+.musica-text {
+  color: white;
+  font-size: 15px;
+  font-family: fangsong;
+  font-weight: bold;
+}
+
+.text-preco {
+  color: white;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.text-li {
+  color: white;
+  font-family: serif;
+  font-size: 15px;
+}
+
+.button-comprar {
+  padding: 7px;
+  width: 96px;
+  border-radius: 8px;
+  border: #b04267 solid 3px;
+  background-color: #eb1c63;
+  color: white;
+  font-size: 15px;
+  font-family: fangsong;
+}
+
+.button-comprar:hover {
+  padding: 7px;
+  width: 96px;
+  border-radius: 8px;
+  border: #ff00c3 solid 3px;
+  box-shadow: rgb(228, 213, 213) 2px 2px 2px;
+  background-color: #ff00c3;
+  color: white;
+  font-size: 16px;
+  font-family: fangsong;
+  cursor: pointer;
+}
+
+.button-comprar:disabled {
+  cursor: not-allowed;
+  opacity: 50%;
+}

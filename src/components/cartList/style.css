@@ -1,0 +1,66 @@
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 33px;
+  padding-left: 33px;
+  border: solid #673ab7 3px;
+  box-shadow: 2px 5px 5px #673ab7;
+  height: 56px;
+}
+
+.container-text-img {
+  display: flex;
+  justify-content: space-evenly;
+  width: 251px;
+  align-items: center;
+}
+
+.img-nav {
+  width: 62px;
+  height: 47px;
+  border-radius: 62px;
+  cursor: pointer;
+}
+.text-music-shop {
+  color: #e91e63;
+  text-shadow: 2px 3px 3px #03a9f4;
+  font-size: 25px;
+  font-weight: 800;
+  font-family: emoji;
+}
+
+.container-carrinho {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 200px;
+}
+
+.text-carrinho {
+  color: #03a9f4;
+  font-family: emoji;
+  font-size: 25px;
+  font-weight: 600;
+  text-shadow: 2px 3px 3px #e91e63;
+}
+
+.quantidade {
+  margin-top: 18px;
+  color: white;
+  position: relative;
+  font-weight: bolder;
+}
+
+@media (max-width: 768px) {
+  .container-body-cart {
+    width: 296px;
+  }
+
+  .text-music-shop,
+  .text-carrinho {
+    font-size: 20px;
+    width: 54px;
+    height: 41px;
+  }
+}

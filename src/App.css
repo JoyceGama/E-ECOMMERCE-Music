@@ -1,0 +1,12 @@
+body {
+  background-image: url("./assets/backm.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #150309;
+}
+
+.container-all {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
